@@ -12,7 +12,7 @@ def setUp_():
     # reqId时间戳拼接随机数
     reqId =ts + ran
     # 密匙
-    secret = '846d2cb0c7f09c3ae802c42169a6302b'
+    secret = 'qwertyuiop[,.nm,'
     #请求头
     header = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36"}
     #数据库
@@ -22,7 +22,7 @@ def setUp_():
     #测试liveId
     liveId = "140000021000017"
     #测试地址
-    host = "http://inner.test2.qlchat.com"
+    host = "http://i12345678hat.com"
     return (ts,reqId,secret,header,userId,liveId,host)
 def md5(reqSign_):
     md5 = hashlib.md5()
